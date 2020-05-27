@@ -15,7 +15,6 @@ import {Link} from 'react-router-dom';
         <Header className = 'header-color' title = ' '  scroll >
             <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/Resume">Resume</Link>
                 <Link to="/Project">Project</Link>
                 <Link to="Contact">Contacts</Link>
             </Navigation>
@@ -23,7 +22,6 @@ import {Link} from 'react-router-dom';
         <Drawer className = 'drawer-color' >
             <Navigation>
             <Link to="/">Home</Link>
-            <Link to="/Resume">Resume</Link>
                 <Link to="/Project">Project</Link>
                 <Link to="Contact">Contacts</Link>
             </Navigation>

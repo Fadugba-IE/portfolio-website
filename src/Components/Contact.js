@@ -7,17 +7,12 @@ import {Grid, Cell, List,ListItem, ListItemContent } from 'react-mdl';
         return (
             <div className = 'contact-body'>
                 <Grid className= 'contact-grid'>
-                <Cell col={6}>
+                <Cell className = 'contact-left' col={6}>
                     <h2>Fadugba Iyanuoluwa</h2>
                     <img 
                     src = {img} 
                     alt = 'Iyanuoluwa Fadugba'
-                    style= {{height: '250px', paddingTop: '80px'}}
-                    />
-                   
-
-
-                    
+                    style= {{height: '250px', paddingTop: '80px'}}  />
                 </Cell>
 
 
