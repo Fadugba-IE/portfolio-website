@@ -23,21 +23,21 @@ import {Grid, Cell, List,ListItem, ListItemContent } from 'react-mdl';
 
                     <List>
                 <ListItem>
-                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Oxanium'}}>
+                    <ListItemContent style={{ fontFamily: 'Oxanium'}}>
                         <i className="fa fa-phone-square" aria-hidden="true"/>(+234) 8134792044</ListItemContent>
                 </ListItem>
                 <ListItem>
 
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Oxanium'}}>
+                <ListItemContent style={{ fontFamily: 'Oxanium'}}>
                         <i className="fa fa-envelope" aria-hidden="true"/>fadugba.iyanu@gmail.com</ListItemContent>
                 </ListItem>
                 <ListItem>
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Oxanium'}}>
+                <ListItemContent style={{ fontFamily: 'Oxanium'}}>
                         <i className="fa fa-linkedin" aria-hidden="true"/>Fadugba Iyanuoluwa</ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                <ListItemContent style={{fontSize: '30px', fontFamily: 'Oxanium'}}>
+                <ListItemContent style={{ fontFamily: 'Oxanium'}}>
                         <i className="fa fa-github" aria-hidden="true"/>Fadugba-IE</ListItemContent>
                 </ListItem>
                 </List>
