@@ -20,8 +20,8 @@ import Precision from './Precision.png';
         if (this.state.activeTab === 0){
             return(
                 <div>
-   <Card shadow={5} style={{width: '50%', margin: 'auto'}}>
-    <CardTitle  style={{color: '#fff', height: '650px', backgroundImage: 'url(' + require('./Zino.JPG') + ')' }}>Zino cabs Landind Page UI</CardTitle>
+   <Card shadow={5} style={{width: '25%', margin: 'auto'}}>
+    <CardTitle  style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./Zino.JPG') + ')' }}>Zino cabs Landind Page UI</CardTitle>
                 
                 <CardText> Zino Cabs UI was one of my practice projects when i was learning to code Html and Css  </CardText>
                 <CardActions border>
@@ -41,8 +41,8 @@ import Precision from './Precision.png';
             return(
 
                 <div>
-                    <Card shadow={5} style={{width: '39%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '600px', backgroundImage: 'url(' + require('./Volcano.JPG') + ')' }}>Volcano Gym Web App</CardTitle>
+                    <Card shadow={5} style={{width: '25%', margin: 'auto'}}>
+    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Volcano.JPG') + ')' }}>Volcano Gym Web App</CardTitle>
                 
                 <CardText> Volcano Gym was a practice project Using HTML/CSS and JQUERY. It was inspired by my Weight Loss journey. All names and content were totally made up and all images gotten online  </CardText>
                 <CardActions border>
@@ -62,7 +62,7 @@ import Precision from './Precision.png';
                 <div>
 
 <Card shadow={5} style={{width: '40%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '550px', backgroundImage: 'url(' + require('./StaffManager.JPG') + ')' }}>Staff Manager Staff Management Application</CardTitle>
+    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./StaffManager.JPG') + ')' }}>Staff Manager Staff Management Application</CardTitle>
                 
                 <CardText> Inspired by the need at Pilot Finance Limited, my workplace as at the start period of the Project, The application was inteded to ease the  handling and management of all staff details however, it hasn't been completed yet  </CardText>
                 <CardActions border>
@@ -83,7 +83,7 @@ import Precision from './Precision.png';
                 <div>
 
 <Card shadow={5} style={{width: '40%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '550px', backgroundImage: 'url(' + require('./Precision.png') + ')' }}>Precision Power Source Website</CardTitle>
+    <CardTitle style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./Precision.png') + ')' }}>Precision Power Source Website</CardTitle>
                 
                 <CardText> A corporate Website designed for a Power and Energy Company.   </CardText>
                 <CardActions border>
@@ -104,7 +104,7 @@ import Precision from './Precision.png';
 
                 <div>
                           <Card shadow={5} style={{width: '40%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '550px', backgroundImage: 'url(' + require('./Portsite.JPG') + ')'}}>My Portfolio Website</CardTitle>
+    <CardTitle style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./Portsite.JPG') + ')'}}>My Portfolio Website</CardTitle>
                 
                 <CardText> The Source code of this Particular Website. it is my Portfolio Website containing my Resume, Stack and projects  </CardText>
                 <CardActions border>
