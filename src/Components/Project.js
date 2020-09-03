@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell,Card,CardTitle, CardText, Button, CardMenu,IconButton, CardActions} from 'react-mdl';
-import Zino from './Zino.JPG';
-import Volcano from './Volcano.JPG';
-import StaffManager from './StaffManager.JPG';
-import Portsite from './Portsite.JPG';
-import Precision from './Precision.png';
 
 
 
@@ -22,19 +17,19 @@ import Precision from './Precision.png';
         if (this.state.activeTab === 0){
             return(
                 <div>
-   <Card shadow={5} style={{width: '75%', margin: 'auto'}}>
-    <CardTitle  style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./Zino.JPG') + ')' }}>Zino cabs Landind Page UI</CardTitle>
-                
-                <CardText> Zino Cabs UI was one of my practice projects when i was learning to code Html and Css  </CardText>
-                <CardActions border>
-                    <Button colored onClick = {()=> window.open ("https://github.com/Fadugba-IE/Zino-cab")}>Github</Button>
-                </CardActions>
-                <CardMenu style= {{color: '#fff'}}>
+                <Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+<CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Volcano.JPG') + ')' }}>Volcano Gym Web App</CardTitle>
+            
+            <CardText> Volcano Gym was a practice project Using HTML/CSS and JQUERY. It was inspired by my Weight Loss journey. All names and content were totally made up and all images gotten online  </CardText>
+            <CardActions border>
+                <Button colored onClick = {()=> window.open ("https://github.com/Fadugba-IE/volcano-gym")}>VIEW PROJECT</Button>
+            </CardActions>
+            <CardMenu style= {{color: '#fff'}}>
 
-                    <IconButton name = "share" />
-                </CardMenu>
-                </Card>
-                </div>
+                <IconButton name = "share" />
+            </CardMenu>
+            </Card>
+            </div>
             )
     
         }
@@ -43,12 +38,12 @@ import Precision from './Precision.png';
             return(
 
                 <div>
-                    <Card shadow={5} style={{width: '75%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Volcano.JPG') + ')' }}>Volcano Gym Web App</CardTitle>
+                    <Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Diary.jpg') + ')' }}>Online Diary App</CardTitle>
                 
-                <CardText> Volcano Gym was a practice project Using HTML/CSS and JQUERY. It was inspired by my Weight Loss journey. All names and content were totally made up and all images gotten online  </CardText>
+                <CardText> "Online diary app" is a web aplication developed using React Js. The project idea is an online diary where users can register, log in to a dashboard, write memories and store it for future reference </CardText>
                 <CardActions border>
-                    <Button colored onClick = {()=> window.open ("https://github.com/Fadugba-IE/volcano-gym")}>Github</Button>
+                    <Button colored onClick = {()=> window.open ("https://5f4ebd5b1877080008938c91--iyanu-diary-app.netlify.app/")}>VIEW PROJECT</Button>
                 </CardActions>
                 <CardMenu style= {{color: '#fff'}}>
 
@@ -63,12 +58,11 @@ import Precision from './Precision.png';
             return(
                 <div>
 
-<Card shadow={5} style={{width: '75%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./StaffManager.JPG') + ')' }}>Staff Manager Staff Management Application</CardTitle>
-                
-                <CardText> Inspired by the need at Pilot Finance Limited, my workplace as at the start period of the Project, The application was inteded to ease the  handling and management of all staff details however, it hasn't been completed yet  </CardText>
+<Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Entertainment.jpg') + ')' }}>Entertainment Website</CardTitle>         
+                <CardText> "Ëntertainment Website" is a portfolio project. It is a design of a layout of an entertainment company. it contains a carousel dislaying a slideshow of artistes, a news section displaying news and gallery with a video player embedded in it  </CardText>
                 <CardActions border>
-                    <Button colored >Github</Button>
+                <Button colored onClick = {()=> window.open ("https://iyanu-entertainment-company.netlify.app")}>VIEW PROJECT</Button>
                 </CardActions>
                 <CardMenu style= {{color: '#fff'}}>
 
@@ -84,12 +78,12 @@ import Precision from './Precision.png';
             return(
                 <div>
 
-<Card shadow={5} style={{width: '75%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./Precision.png') + ')' }}>Precision Power Source Website</CardTitle>
+<Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Portfolio.jpg') + ')' }}>Portfolio Website</CardTitle>
                 
-                <CardText> A corporate Website designed for a Power and Energy Company.   </CardText>
+                <CardText>This is my personal portfoilio website. it was developed using React js. it contains details about myself, a button to download my resume on the homepage, a button to send a mail, a section with a list of projects and a contact section   </CardText>
                 <CardActions border>
-                    <Button colored onClick = {()=> window.open ("")}>Github</Button>
+                <Button colored onClick = {()=> window.open ("https://iyanu-portfolio.netlify.app")}>VIEW PROJECT</Button>
                 </CardActions>
                 <CardMenu style= {{color: '#fff'}}>
 
@@ -105,12 +99,12 @@ import Precision from './Precision.png';
             return(
 
                 <div>
-                          <Card shadow={5} style={{width: '75%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./Portsite.JPG') + ')'}}>My Portfolio Website</CardTitle>
+                          <Card shadow={5} style={{width: '300px', margin: 'auto'}}>
+    <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Veritas.jpg') + ')'}}>Veritas Hair</CardTitle>
                 
-                <CardText> The Source code of this Particular Website. it is my Portfolio Website containing my Resume, Stack and projects  </CardText>
+                <CardText> "Laverita Hair Website". this is a project developed using Wordpress. It is a company websit for a hair beauty place located at IKoyi, Lagos state, Nigeria </CardText>
                 <CardActions border>
-                    <Button colored onClick = {()=> window.open ("https://github.com/Fadugba-IE/portfolio-website")}>Github</Button>
+                <Button colored onClick = {()=> window.open ("https://laveritahair.com/")}>VIEW PROJECT</Button>
                 </CardActions>
                 <CardMenu style= {{color: '#fff'}}>
 
@@ -122,30 +116,6 @@ import Precision from './Precision.png';
                 </div>
             )
         }
-
-
-       /* else {
-            return(
-
-                <div>
-                          <Card shadow={5} style={{width: '75%', margin: 'auto'}}>
-    <CardTitle style={{color: '#fff', height: '400px', backgroundImage: 'url(' + require('./diaryapp') + ')'}}>My Portfolio Website</CardTitle>
-                
-                <CardText> Online diary app is a random project i embarked on during the Cororna virus Pandemic. It's an online diary where Users can Login and keep their memories in words. it is still under development  </CardText>
-                <CardActions border>
-                    <Button colored onClick = {()=> window.open ("https://github.com/Fadugba-IE/online-diary")}>Github</Button>
-                </CardActions>
-                <CardMenu style= {{color: '#fff'}}>
-
-                    <IconButton name = "share" />
-                </CardMenu>
-                </Card>
-
-
-                </div>
-            )
-        }
-*/
 
     }
 
@@ -154,16 +124,18 @@ import Precision from './Precision.png';
         return (
             <div className = "category-tabs">
                 <Tabs activeTab = {this.state.activeTab} onChange={(tabId) =>this.setState ({activeTab: tabId})} ripple>
-          <Tab>HTML/CSS</Tab>
           <Tab>HTML/CSS/JQUERY</Tab>
-          <Tab>BOOTSTRAP</Tab>
-          <Tab>WORDPRESS</Tab>
-          <Tab>REACT</Tab> 
+          <Tab>REACT JS</Tab>
+          <Tab>REACT JS</Tab>
+          <Tab>REACT JS</Tab>
+          <Tab>WORDPRESS</Tab> 
           </Tabs>
+
+          
           <section className= "project-grid">
               <Grid className= "project-grid">
                   <Cell col = {12}>
-                  <div className="content"> {this.toggleCategories()}> </div>
+                  <div className="content"> {this.toggleCategories()} </div>
                   </Cell>
               </Grid>
              
