@@ -36,13 +36,13 @@ FileSaver.saveAs(
                         </div>
                         <div className = 'social-links'>
 
-                       <a href="https://www.linkedin.com/in/fadugba-iyanuoluwa-079596127/" rel = "noopener noreferrer" target = "_blank" > <i class="fa fa-linkedin-square" aria-hidden = "true" /></a>
+        <a href="https://www.linkedin.com/in/fadugba-iyanuoluwa-079596127/" rel = "noopener noreferrer" target = "_blank" > <i class="fa fa-linkedin-square" aria-hidden = "true" />{null}</a>
                       
 
-                       <a href="https://github.com/Fadugba-IE" rel = "noopener noreferrer" target = "_blank" ><i class="fa fa-github-square" aria-hidden = "true" /></a>
+        <a href="https://github.com/Fadugba-IE" rel = "noopener noreferrer" target = "_blank" ><i class="fa fa-github-square" aria-hidden = "true" />{null}</a>
                        
 
-                       <a href="https://twitter.com/FadugbaI" rel = "noopener noreferrer" target = "_blank" ><i class="fa fa-twitter-square" aria-hidden = "true" /></a>
+                       <a href="https://twitter.com/FadugbaI" rel = "noopener noreferrer" target = "_blank" ><i class="fa fa-twitter-square" aria-hidden = "true" />{null}</a>
                        
 
                    </div>
@@ -56,3 +56,5 @@ FileSaver.saveAs(
 };
 
 export default LandingPage;
+
+/* bshbfhb */

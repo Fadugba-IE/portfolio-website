@@ -4,6 +4,7 @@ import { Tabs, Tab, Grid, Cell,Card,CardTitle, CardText, Button, CardMenu,IconBu
 
 
 
+
  class Project extends Component {
 
     constructor(props) {
@@ -60,7 +61,7 @@ import { Tabs, Tab, Grid, Cell,Card,CardTitle, CardText, Button, CardMenu,IconBu
 
 <Card shadow={5} style={{width: '300px', margin: 'auto'}}>
     <CardTitle style={{color: '#fff', height: '300px', backgroundImage: 'url(' + require('./Entertainment.jpg') + ')' }}>Entertainment Website</CardTitle>         
-                <CardText> "Ëntertainment Website" is a portfolio project. It is a design of a layout of an entertainment company. it contains a carousel dislaying a slideshow of artistes, a news section displaying news and gallery with a video player embedded in it  </CardText>
+                <CardText> "Entertainment Website" is a portfolio project. It is a design of a layout of an entertainment company. it contains a carousel dislaying a slideshow of artistes, a news section displaying news and gallery with a video player embedded in it  </CardText>
                 <CardActions border>
                 <Button colored onClick = {()=> window.open ("https://iyanu-entertainment-company.netlify.app")}>VIEW PROJECT</Button>
                 </CardActions>
